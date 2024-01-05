@@ -4,7 +4,7 @@
   "description": "Blog app",
   "main": "server.js",
   "engines": {
-    "npm": "v18.x"
+    "node": "v18.x"
   },
   "scripts": {
     "start": "node server.js",
