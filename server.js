@@ -11,7 +11,7 @@ const commentRoutes = require('./route/comments/commentRoutes');
 const emailMsgRoute = require('./route/emailMsg/emailMsgRoute');
 const categoryRoute = require('./route/category/categoryRoute');
 
-const app = express(); // Creates an instance of express called 'app'
+const app = express();
 
 // DB
 dbConnect();
@@ -43,4 +43,4 @@ app.use(errorHandler);
 
 // Server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, console.log(`Server is running on PORT ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
