@@ -7,7 +7,7 @@
     "node": "v18.x"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "author": "stepweaver",
